@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fcdcdc;
+}
+
+.mixtape-player {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.song {
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffcccb;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.song:hover {
+    text-decoration: underline;
+    background-color: #ff9999;
+}
+
+#audioPlayer {
+    width: 100%;
+    margin-top: 20px;
+}
